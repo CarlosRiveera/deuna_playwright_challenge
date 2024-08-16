@@ -65,6 +65,6 @@ test.describe("Purchase flow", () => {
   });
 
   test.afterEach(async ({ page }) => {
-    console.log("Test completed.");
+    console.log("Test completed with github actions");
   });
 });
